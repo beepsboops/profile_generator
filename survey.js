@@ -13,13 +13,13 @@ rl.question(`What's your name? Nicknames are also acceptable :) `, (nickname) =>
           rl.question(`Which sport is your absolute favourite? `, (sport) => {
             rl.question(`What is your superpower? In a few words, tell us what you are amazing at! `, (superpower) => {
               rl.close();
-              console.log(`${nickname} loves listening to ${listen} while ${activity}, devouring ${whatMeal} for ${whichMeal}, prefers ${sport} over any other sport, and is amazing at ${superpower}.`)
+              console.log(`${nickname} loves listening to ${listen} while ${activity}, devouring ${whatMeal} for ${whichMeal}, prefers ${sport} over any other sport, and is amazing at ${superpower}.`);
             });
           });
         });
       });
     });
-  });  
+  });
 });
 
 // Sample output
